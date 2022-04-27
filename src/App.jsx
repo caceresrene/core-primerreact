@@ -1,14 +1,33 @@
+import PersonCard from './components/PersonCard';
+import './App.css';
+
 function App() {
 	return (
 		<>
-			<h1>Hello Dojo!</h1>
-			<p>Things I need to do:</p>
-			<ol>
-				<li>Learn React</li>
-				<li>Climb Mt. Everest</li>
-				<li>Run a marathon</li>
-				<li>Feed the dogs</li>
-			</ol>
+			<PersonCard
+				lastName={'Doe'}
+				firstName={'Jane'}
+				age={'45'}
+				hairColor={'Black'}
+			/>
+			<PersonCard
+				lastName={'Smith'}
+				firstName={'John'}
+				age={'88'}
+				hairColor={'Brown'}
+			/>
+			<PersonCard
+				lastName={'Millard'}
+				firstName={'Fillmore'}
+				age={'50'}
+				hairColor={'Brown'}
+			/>
+			<PersonCard
+				lastName={'Smith'}
+				firstName={'Maria'}
+				age={'62'}
+				hairColor={'Brown'}
+			/>
 		</>
 	);
 }
