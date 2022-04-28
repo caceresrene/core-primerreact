@@ -1,10 +1,11 @@
 import PersonCard from './components/PersonCard';
+import Form from './components/Form';
 import './App.css';
 
 function App() {
 	return (
 		<main className='container'>
-			<PersonCard
+			{/* <PersonCard
 				lastName={'Doe'}
 				firstName={'Jane'}
 				age={45}
@@ -27,7 +28,8 @@ function App() {
 				firstName={'Maria'}
 				age={62}
 				hairColor={'Brown'}
-			/>
+			/> */}
+			<Form />
 		</main>
 	);
 }
