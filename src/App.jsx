@@ -1,10 +1,10 @@
 import './App.css';
-import FormReducer from './components/FormReducer';
+import GeneradorDeCaja from './components/GeneradorDeCaja';
 
 function App() {
 	return (
 		<main className='container'>
-			<FormReducer />
+			<GeneradorDeCaja />
 		</main>
 	);
 }

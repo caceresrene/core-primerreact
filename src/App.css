@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
 * {
 	font-family: 'Inter', sans-serif;
 	margin: 0;
 }
-
 .container {
-	max-width: 32rem;
+	max-width: 20rem;
 	margin: auto;
+	margin-top: 4rem;
+	padding: 1rem;
+	/* background-color: gray; */
 }
 
-.card {
+/* .card {
 	text-align: center;
 	margin: 1em auto;
 }
@@ -37,4 +38,4 @@
 .flex-col {
 	display: flex;
 	flex-direction: column;
-}
+} */
